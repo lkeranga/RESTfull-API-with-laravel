@@ -41,3 +41,5 @@ artical?id=1
 ## backup DB
 
 run the backup.sh file to backup the DB. change the configaration in the backup.sh file "USER", "PASSWORD" and "OUTPUT"
+
+- [backup to dropbox](http://danieldvork.in/script-for-mysql-backup-to-dropbox/).
