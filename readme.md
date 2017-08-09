@@ -4,6 +4,15 @@ This project has used the crud generator and laravel auth to make the authentica
 
 - [crud generator](https://github.com/appzcoder/crud-generator).
 
+## Installation
+
+
+* `https://github.com/vishwapriyanatha/RESTfull-API-with-laravel.git`
+* `cd projectname`
+* `composer install`
+* Create a database and inform *.env*
+* `php artisan migrate` to create and populate tables
+* `php artisan serve` to start the app on http://localhost:8000/
 
 ## store value format
 
