@@ -16,7 +16,7 @@ This project has used the crud generator and laravel auth to make the authentica
 
 ## store value format
 
-send valeu to "artical" route
+send value to "artical" route
 
 [
 {
