@@ -14,10 +14,9 @@ class CreateArticalsTable extends Migration
     {
         Schema::create('articals', function(Blueprint $table) {
             $table->increments('id');
-            $table->string('id');
-            $table->string('auth_id');
+            $table->int('auth_id');
             $table->string('title');
-            $table->string('url');
+            $table->string('url')->unique();
             $table->string('content');
             $table->timestamp('created_at');
             $table->timestamp('updated_at');

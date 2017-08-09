@@ -25,7 +25,7 @@ class artical extends Model
      *
      * @var array
      */
-    protected $fillable = ['id', 'auth_id', 'title', 'url', 'content', 'created_at', 'updated_at'];
+    protected $fillable = ['id', 'auth_id', 'title', 'url', 'content'];
 
     
 }
