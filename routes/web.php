@@ -17,4 +17,4 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::resource('artical','ArticalController');
+Route::resource('artical','articalController');

@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\artical;
 use Illuminate\Http\Request;
 use Session;
+use Illuminate\Support\Facades\Response;
 
 class articalController extends Controller
 {
@@ -31,7 +32,6 @@ class articalController extends Controller
 //get data from artical
       $artical =  artical::where('auth_id',$request->id)
       ->get();
-
 //is artical data is null
       if ($artical->count() == 0) {
 
