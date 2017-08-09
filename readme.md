@@ -11,6 +11,7 @@ This project has used the crud generator and laravel auth to make the authentica
 * `cd projectname`
 * `composer install`
 * Create a database and inform *.env*
+* I have comment the `\App\Http\Middleware\VerifyCsrfToken::class,` in *kernel.php*
 * `php artisan migrate` to create and populate tables
 * `php artisan serve` to start the app on http://localhost:8000/
 
