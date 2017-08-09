@@ -38,3 +38,6 @@ artical?id=1
 "created_at": "2017-03-20"
 }
 
+## backup DB
+
+run the backup.sh file to backup the DB. change the configaration in the backup.sh file "USER", "PASSWORD" and "OUTPUT"
