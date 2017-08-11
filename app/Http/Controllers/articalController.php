@@ -71,6 +71,15 @@ class articalController extends Controller
      */
     public function store(Request $request)
     {
+       if(is_null($request))
+        {   // return error 
+            return Response::json([ 
+                    'query_status' => 'error', 
+                    'code' => 422,
+                    'message' => 'missing argument', 
+                    'data' => null
+                ], 422);
+        }
     
       $record = artical::create($request->all());
 

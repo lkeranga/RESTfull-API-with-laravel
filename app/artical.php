@@ -27,5 +27,12 @@ class artical extends Model
      */
     protected $fillable = ['id', 'auth_id', 'title', 'url', 'content'];
 
+    public static $rules = array(
+        'url'     => 'required|varchar'
+        );
+
+    public static $messages = array( 
+        'required' => 'The :attribute field is required.',
+        );
     
 }
